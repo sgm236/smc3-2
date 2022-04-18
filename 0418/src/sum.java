@@ -20,6 +20,7 @@ public class sum {
 		
 		System.out.println(start_n+"부터 "+last_n+"까지의 합은 "+sum);
 		
+		sc.close();
 	}
 
 }
