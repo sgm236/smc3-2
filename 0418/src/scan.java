@@ -9,7 +9,7 @@ public class scan {
 		
 		System.out.println("1000 이하의 자연수를 입력하세요.");
 		num = sc.nextInt();
-		
+		sc.close();
 		for(i=1; i<=num; i++) {
 			if(i%4==0) {
 				sum+=i;
@@ -18,7 +18,7 @@ public class scan {
 		}
 		
 		System.out.print("1~"+num+"까지 4의 배수의 합은 "+sum+"입니다.");
-		sc.close();
+		
 	}
 
 }
